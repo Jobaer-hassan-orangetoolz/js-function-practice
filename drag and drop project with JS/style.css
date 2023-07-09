@@ -26,6 +26,7 @@ body{ /*for the body part full*/
 }
 h2{
     font-size: 32px;
+    align-items: center;
 }
 .data{
     display: flex;
@@ -43,4 +44,25 @@ h2{
     outline: none;
     border: none;
     cursor: pointer;
+    color: white;
+    padding: 3px;
+}
+.list{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    align-items: flex-start;
+}
+.box{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+.item{
+    background-color: #928cff;
+    padding: 10px;
+    margin: 4px;
+    cursor: move;
+    color: white;
 }
