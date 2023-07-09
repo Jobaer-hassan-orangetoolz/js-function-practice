@@ -26,7 +26,6 @@ body{ /*for the body part full*/
 }
 h2{
     font-size: 32px;
-    align-items: center;
 }
 .data{
     display: flex;
@@ -58,6 +57,7 @@ h2{
     padding: 10px;
     border-radius: 10px;
     width: 200px;
+   
 }
 .item{
     background-color: #928cff;
